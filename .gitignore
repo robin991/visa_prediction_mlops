@@ -1,2 +1,4 @@
 venv
 logs/*
+us_visa/environment_var/.env
+artifact/
