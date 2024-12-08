@@ -65,7 +65,7 @@ class DataIngestion:
             logging.info(
                 "Exited split_data_as_train_test method of Data_Ingestion class"
             )
-            dir_path = os.path.dirname(self.data_ingestion_config.training_file_path)
+            dir_path = os.path.dirname(self.data_ingestion_config.training_file_path) # creating the ingeted directory ( will be same for test and train)
             os.makedirs(dir_path,exist_ok=True)
             
             logging.info(f"Exporting train and test file path.")
